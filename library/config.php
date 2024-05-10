@@ -8,9 +8,9 @@ session_start();
 
 // database connection config
 
-$dbHost = 'localhost';
-$dbUser = 'root';
-$dbPass = '';
+$dbHost = 'db-ems-1.mysql.database.azure.com';
+$dbUser = 'Admin_db';
+$dbPass = 'test@123';
 $dbName = 'db_event_management';
 
 /*
@@ -20,8 +20,8 @@ $dbPass = 'ce=rgfq=C6LB';
 $dbName = 'tousifkh_calendar';
 */
 //Project data
-$site_title 	= 'Online Banking - www.TechZoo.org';
-$email_id 		= 'customerservice@hlbonline.pro';
+$site_title 	= 'Event Management System - Azure Implementation';
+$email_id 		= 'customerservice@ems.pro';
 
 $thisFile = str_replace('\\', '/', __FILE__);
 $docRoot = $_SERVER['DOCUMENT_ROOT'];
